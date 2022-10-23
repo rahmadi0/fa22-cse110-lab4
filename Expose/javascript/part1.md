@@ -5,7 +5,7 @@
 5. the program crash when we reassign a constant variable. the variable result is not changing.
 6. error becasue of reassigning the const variable result.
    
-#part2.
+###part2.
 
 1. 3 is printed. this the number of iteration of i in the for loop. i iterates over the prices.length, i iterates 3 times.
 2. 150 is printed is the discountPrice amount. that is the amount computed for the last iteration for price 300. so the last index in the price[2] is 300 * (1 -0.5) = 150. 
