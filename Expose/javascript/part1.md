@@ -17,4 +17,4 @@
 8. the function returns the discounted array with the values 50, 100, 150. But it does not print anything because no function call for console.log made.
 9. reference error i is not defined. Since i is type let and we access it outside the block scope.
 10. 3 is printed. this the prices.length. We get no error becasue the lenght is defined and accessed in side the block scope. 
-11. the function returns the discounted array even it is const but we don't get an error because you can change the elements of a const array or push into it.
+11. the function returns the discounted array with the values 50, 100, 150. But it does not print anything because no function call for console.log made. even the array is type constant but we don't get an error because you can change the elements of a const array or push into it. example discounted.push(1) or discounted[2] = 333. this does not throw and error.
