@@ -27,3 +27,7 @@ C. true. because '2' will be converted to integer.
 D. false. because '===' is a strict equality operator so they must be the same typed.  
 E. false. because value for true is 1.
 F. true. because boolean(2) is 1 and true is also 1 so 1===1 is true.  
+
+15.  '==' Returns true if the operands are equal.it ignores the datatype of the variable however '===' Returns true if the operands are equal and of the same type.  
+
+  
