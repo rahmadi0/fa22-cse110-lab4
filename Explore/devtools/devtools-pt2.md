@@ -1,0 +1,2 @@
+1. The type of result, num1 and num3 were string. The function concatenated the number instead of adding them.
+2. I needed to cast num1 and num2 to integer for best result. parseInt(num1) + parseInt(num2)
