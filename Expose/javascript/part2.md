@@ -32,6 +32,6 @@ F. true. because boolean(2) is 1 and true is also 1 so 1===1 is true.
 
 17. When `modifyArray([1,2,3], doSomething)` is called, the for loop iterates over the given array and push the callback function with each element in the argument array to newArr asynchronously.the callback functions executes when the modifyArray is loaded thus the newArr returns `[doSomething(1), doSomething(2), doSomething(3)]`. which returns [2,4,6].
 
-
+19. 1 4 3 2;
 
   
